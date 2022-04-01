@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lesson1</h1>
+    <ul>
+        <li>Чему будет равно JS-выражение 1000 + "108"?</li>
+    </ul>
+    <script>
+        // var a = 1000;
+        // var b = "108";
+        // var c = a + b;
+
+        // console.log(c)
+        // Ответ : 1000108
+        
+        console.log(add(1000 + '108'))
+
+        function add (a,b) {
+            return a + b;
+        }
+    </script>
+    // Ответ: 1000108undefined
+</body>
+</html>
