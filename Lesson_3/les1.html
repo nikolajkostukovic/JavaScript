@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lesson_3</h1>
+    <ul>
+        <li>С помощью цикла while вывести все простые числа в промежутке от 0 до 100</li>
+    </ul>
+    <script>
+        let num = 100;
+
+        nextPrime:
+        for(let i = 2; i < num; i++) {
+            for(j =2; j < i; j++) {
+                if(i % j==0) continue nextPrime;
+
+            }
+            console.log(i); 
+        }
+        
+
+       
+    </script>
+</body>
+</html>
